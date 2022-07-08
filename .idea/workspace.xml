@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7994e5cd-625f-4846-8e08-2b92d2fe0a80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/Bubble_Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/SortController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/SortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/SortManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/ViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/Bubble_Sort.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/Main.java" afterDir="false" />
     </list>
+    <list id="0560f6cf-3c69-4105-8b47-9c74d534f3d8" name="Changes by doguk" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,13 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sparta.SortManager.Main" />
@@ -70,7 +74,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656949908130</updated>
-      <workItem from="1656949910257" duration="4624000" />
+      <workItem from="1656949910257" duration="7251000" />
+      <workItem from="1657056113585" duration="7158000" />
+      <workItem from="1657096478719" duration="3115000" />
+      <workItem from="1657114822259" duration="2488000" />
+      <workItem from="1657124533740" duration="12782000" />
+      <workItem from="1657182710796" duration="4799000" />
+      <workItem from="1657197565340" duration="4461000" />
+      <workItem from="1657207127745" duration="12055000" />
+      <workItem from="1657235557575" duration="1215000" />
+      <workItem from="1657274733800" duration="316000" />
     </task>
     <servers />
   </component>
@@ -87,5 +100,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="SortMethod" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
