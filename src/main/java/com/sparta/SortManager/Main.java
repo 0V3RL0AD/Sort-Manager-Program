@@ -81,8 +81,10 @@ public class Main {
         }
         SortController sortController = new SortController(sortManager);
         sortController.setSortData(User);
-        
+        long start = System.currentTimeMillis();
         viewController.showOutput(sortController.Sort());
+        long diff =  (System.currentTimeMillis() - start);
+        System.out.println(diff + " ms");
 
     }
 }
