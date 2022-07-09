@@ -9,11 +9,13 @@ public class SortData {
     {
 
     }
+    //getter function -  gets the data we need and returns it as an integer array
     public int[] getData()
     {
         return this.data;
     }
 
+    //setter function -
     public void setData(int[] data)
     {
         this.data = data;

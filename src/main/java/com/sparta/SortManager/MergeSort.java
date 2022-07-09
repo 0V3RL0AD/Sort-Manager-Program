@@ -2,29 +2,11 @@ package com.sparta.SortManager;
 
 import java.util.Arrays;
 
-public class SortManager {
-    
-    public int[] bubbleSort(int[] arr)
-    {
-        // loop to access each number in the array
-        for (int i = 0; i < arr.length - 1; i++)
-        {
-            // loop to compare numbers in the array
-            for (int y = 0; y < arr.length - i - 1; y++)
-            {
-                // compare numbers next to each other
-                if (arr[y] > arr[y+1])
-                {
-                    //swap the numbers if they are not in order
-                    int tempN = arr[y];
-                    arr[y] = arr[y + 1];
-                    arr[y + 1] = tempN;
-                }
-            }
-        }
-        return arr;
-    }
+public class MergeSort implements Sort{
 
+    public int[] sort(int[] arr){
+        return this.mergeSort(arr, arr.length);
+    }
     public int[] mergeSort(int[] arr, int size)
     {
         if (size > 1)
@@ -38,7 +20,7 @@ public class SortManager {
         }
         return arr;
     }
-    
+
     public int[] mergeArray(int[] firstSection, int[] secondSection, int x, int y)
     {
         int[] arr = new int[x + y];
@@ -67,4 +49,5 @@ public class SortManager {
         }
         return arr;
     }
+
 }

@@ -1,0 +1,12 @@
+File Log: [ERROR] 2022-07-09 00:58:59,674 main <-test-> - 
+sg
+File Log: [ERROR] 2022-07-09 00:59:29,535 main <-test-> - 
+sg
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Scanner.java:943) ~[?:?]
+	at java.util.Scanner.next(Scanner.java:1598) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2263) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2217) ~[?:?]
+	at com.sparta.SortManager.Main.run(Main.java:51) ~[classes/:?]
+	at com.sparta.SortManager.Main.start(Main.java:20) ~[classes/:?]
+	at com.sparta.SortManager.Main.main(Main.java:16) ~[classes/:?]
