@@ -1,6 +1,6 @@
 # Sorting Program
 
-The program I have created sorts out any given array of integers of any different size into ascending order through 3 different methods, known as Bubble, Merge and Sort.
+The program I have created sorts out any given array of integers of any different size into ascending order through 3 different methods, known as Bubble, Merge and Tree.
 
 The Bubble method is a simple sorting algorithm that compares adjacent elements of an array and swaps them if the element on the right is smaller than the one on the left. If the first element is greater than the second element, they are swapped. Now, compare the second and the third elements. Swap them if they are not in order. The process goes on until the last element. The largest element among the unsorted elements is placed at the end. The array is sorted when all the unsorted elements are placed at their correct positions.
 
