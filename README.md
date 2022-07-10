@@ -6,7 +6,7 @@ The Bubble method is a simple sorting algorithm that compares adjacent elements 
 
 The Merge method is one of the most popular sorting algorithms that is based on the principle of Divide and Conquer Algorithm. The program works by first &quot;dividing&quot; the input array into 2 parts, calls itself for them, and then merges those two sorted halves. This process recursively occurs as every half of the array is again divided into two halves, sorted and merged.
 
-The Tree method is an algorithm that is based on Binary Search Tree data structure. It first creates a binary search tree from the elements of the input list or array and then performs an in-order traversal on the created binary search tree to get the elements in sorted order. It works by taking the elements input in an array, creating a Binary search tree by inserting data items from the array into the binary search tree and finally, performing in-order traversal on the tree to get the elements in sorted order.
+The Tree method is an algorithm that is based on Binary Search Tree data structure. It works by taking the elements input in an array, creating a Binary search tree by inserting data items from the array into the binary search tree and finally, performing in-order traversal on the tree to get the elements in sorted order.
 
 Here are some examples of the sort methods working within my project:
 
