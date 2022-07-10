@@ -10,3 +10,23 @@ java.util.InputMismatchException: null
 	at com.sparta.SortManager.Main.run(Main.java:51) ~[classes/:?]
 	at com.sparta.SortManager.Main.start(Main.java:20) ~[classes/:?]
 	at com.sparta.SortManager.Main.main(Main.java:16) ~[classes/:?]
+File Log: [ERROR] 2022-07-10 16:50:15,389 main <-test-> - 
+sg
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Scanner.java:943) ~[?:?]
+	at java.util.Scanner.next(Scanner.java:1598) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2263) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2217) ~[?:?]
+	at com.sparta.SortManager.Main.run(Main.java:57) ~[classes/:?]
+	at com.sparta.SortManager.Main.start(Main.java:20) ~[classes/:?]
+	at com.sparta.SortManager.Main.main(Main.java:16) ~[classes/:?]
+File Log: [ERROR] 2022-07-10 16:50:47,342 main <-test-> - 
+sg
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Scanner.java:943) ~[?:?]
+	at java.util.Scanner.next(Scanner.java:1598) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2263) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2217) ~[?:?]
+	at com.sparta.SortManager.Main.run(Main.java:57) ~[classes/:?]
+	at com.sparta.SortManager.Main.start(Main.java:20) ~[classes/:?]
+	at com.sparta.SortManager.Main.main(Main.java:16) ~[classes/:?]

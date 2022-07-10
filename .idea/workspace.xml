@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7994e5cd-625f-4846-8e08-2b92d2fe0a80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/SortManager/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/SortManager/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/SortManager/TreeSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/mylogfile.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/SortManager/Main.java" afterDir="false" />
     </list>
-    <list id="0560f6cf-3c69-4105-8b47-9c74d534f3d8" name="Changes by doguk" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -34,21 +38,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "consents"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;consents&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sparta.SortManager.Main" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sparta.SortManager" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TreeSortTest">
+    <configuration name="BubbleSortTest.Test10Number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sort Manager Program" />
       <extension name="coverage">
         <pattern>
@@ -56,13 +69,84 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SortManager" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SortManager.BubbleSortTest" />
+      <option name="METHOD_NAME" value="Test10Number" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortTest.Test15Number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sort Manager Program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SortManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SortManager" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SortManager.BubbleSortTest" />
+      <option name="METHOD_NAME" value="Test15Number" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.Test10Number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sort Manager Program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SortManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SortManager" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SortManager.MergeSortTest" />
+      <option name="METHOD_NAME" value="Test10Number" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.Test5Number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sort Manager Program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SortManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SortManager" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SortManager.MergeSortTest" />
+      <option name="METHOD_NAME" value="Test5Number" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sort Manager Program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SortManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SortManager" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SortManager.TreeSortTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TreeSortTest" />
+        <item itemvalue="JUnit.MergeSortTest.Test5Number" />
+        <item itemvalue="JUnit.MergeSortTest.Test10Number" />
+        <item itemvalue="JUnit.BubbleSortTest.Test15Number" />
+        <item itemvalue="JUnit.BubbleSortTest.Test10Number" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +170,11 @@
       <workItem from="1657274733800" duration="2995000" />
       <workItem from="1657290631371" duration="1786000" />
       <workItem from="1657300907116" duration="18831000" />
-      <workItem from="1657322365579" duration="5025000" />
+      <workItem from="1657322365579" duration="5624000" />
+      <workItem from="1657379197067" duration="1319000" />
+      <workItem from="1657394951435" duration="2996000" />
+      <workItem from="1657405003235" duration="3609000" />
+      <workItem from="1657446241482" duration="12169000" />
     </task>
     <servers />
   </component>

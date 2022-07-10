@@ -22,7 +22,7 @@ public class Main {
         catch(Exception ex){
             String message;
             switch (ex.toString()) {
-                case "java.lang.IllegalArgumentException":
+                case "java.lang.IllegalA#rgumentException":
                     message = "Choose Bubbles or Merge";
                     break;
                 case "java.util.InputMismatchException":
@@ -84,7 +84,7 @@ public class Main {
         long start = System.currentTimeMillis();
         viewController.showOutput(sortController.Sort());
         long diff =  (System.currentTimeMillis() - start);
-        System.out.println(diff + " ms");
+        System.out.println("time taken:" + diff + " ms");
 
     }
 }
